@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #f0f2f5; /* Light background */
+  color: #333; /* Dark grey text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #fff; /* White background */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2ecc71; /* Pleasing green color for links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+  color: #2ecc71; /* Pleasing green color for headings */
+}
+
+.project {
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow for depth */
+}
+
+.project h2 {
+  color: #333; /* Dark grey color for headings */
+  margin-bottom: 5px;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff; /* White background */
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
